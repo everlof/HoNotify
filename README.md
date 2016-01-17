@@ -1,2 +1,9 @@
 # HoNotify
-Used to communicate with HoN chatserver, to fetch status about current matches.
+Server listening for game-status from HoN chatserver.
+
+Run server with:
+python -m HoNotify.srv.run
+
+Run test-client with:
+python -m HoNotify.client.run
+
